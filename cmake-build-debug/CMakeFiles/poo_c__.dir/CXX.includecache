@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Amanda/CLionProjects/poo-c++/main.cpp
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/classes.cpp
+classes.h
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/classes.h
 iostream
 -
+cstring
+-
+
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/classes.h
 

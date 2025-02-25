@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named classes
+
+# Build rule for target.
+classes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 classes
+.PHONY : classes
+
+# fast build rule for target.
+classes/fast:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
+.PHONY : classes/fast
+
+#=============================================================================
 # Target rules for targets named poo_c__
 
 # Build rule for target.
@@ -122,6 +135,36 @@ poo_c__: cmake_check_build_system
 poo_c__/fast:
 	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/build
 .PHONY : poo_c__/fast
+
+classes.o: classes.cpp.o
+
+.PHONY : classes.o
+
+# target to build an object file
+classes.cpp.o:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/classes.cpp.o
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/classes.cpp.o
+.PHONY : classes.cpp.o
+
+classes.i: classes.cpp.i
+
+.PHONY : classes.i
+
+# target to preprocess a source file
+classes.cpp.i:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/classes.cpp.i
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/classes.cpp.i
+.PHONY : classes.cpp.i
+
+classes.s: classes.cpp.s
+
+.PHONY : classes.s
+
+# target to generate assembly for a file
+classes.cpp.s:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/classes.cpp.s
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/classes.cpp.s
+.PHONY : classes.cpp.s
 
 main.o: main.cpp.o
 
@@ -156,9 +199,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... classes"
 	@echo "... poo_c__"
+	@echo "... classes.o"
+	@echo "... classes.i"
+	@echo "... classes.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

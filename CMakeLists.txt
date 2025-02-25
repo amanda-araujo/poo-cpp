@@ -3,4 +3,7 @@ project(poo_c__)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(poo_c__ main.cpp)
+add_executable(poo_c__ main.cpp
+        classes.cpp
+        classes.h)
+add_executable(classes classes.cpp)
