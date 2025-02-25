@@ -1,5 +1,6 @@
 //
 // Created by Amanda on 24/02/2025.
+// With a little help from my friends: Buda & Arex :)
 //
 
 #include "classes.h"
@@ -7,7 +8,7 @@
 #include <cstring>
 using namespace std;
 
-// Create class
+// Create classes
 class Treco { // Class
     public:   // Access specifier
         int tamanho;
@@ -25,8 +26,34 @@ class Coisa { // Class
         }
     private:
         void coisaPrivado() {
-            cout << "Secret agent";
+            cout << "Secret agent" << "\n";;
         }
+};
+
+class Animal {
+    public:
+        // Atributes
+        string sp;
+        int size;
+
+        // Methods
+    public:
+        void move() {
+            cout << "moving to atack " << "\n";
+        }
+        void sleep() {
+            cout << "sleeping " << "\n";
+        }
+
+        void hunting() {
+            int n;
+            cout << "hunting in action, how many prays there are in sight?" << "\n";
+            cin >> n;
+            pray += n;
+        }
+
+        // Extras
+        int pray = 0;
 };
 
 int main() {
@@ -53,6 +80,19 @@ int main() {
     coiso.coisaMetodo();
     //coiso.coisaPrivado(); // Error: private method
     coiso.coisaMI6(); // Public using Private
+
+    // Third class
+    Animal tiger;
+    tiger.sp = "Tigrinho";
+    tiger.size = 100;
+    cout << "Species: " << tiger.sp << "\n";
+    cout << "Size: " << tiger.size << "\n";
+    tiger.move();
+    tiger.sleep();
+    tiger.hunting();
+    cout << "Result of the hunting: " << tiger.pray << "\n";
+    tiger.hunting();
+    cout << "Result of the new hunting: " << tiger.pray << "\n";
 
     return 0;
 }
