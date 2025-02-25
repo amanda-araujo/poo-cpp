@@ -1,0 +1,3 @@
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/poo_c__.dir
