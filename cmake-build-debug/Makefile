@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named constructors
+
+# Build rule for target.
+constructors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 constructors
+.PHONY : constructors
+
+# fast build rule for target.
+constructors/fast:
+	$(MAKE) -f CMakeFiles/constructors.dir/build.make CMakeFiles/constructors.dir/build
+.PHONY : constructors/fast
+
+#=============================================================================
 # Target rules for targets named classes
 
 # Build rule for target.
@@ -166,6 +179,36 @@ classes.cpp.s:
 	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/classes.cpp.s
 .PHONY : classes.cpp.s
 
+constructors.o: constructors.cpp.o
+
+.PHONY : constructors.o
+
+# target to build an object file
+constructors.cpp.o:
+	$(MAKE) -f CMakeFiles/constructors.dir/build.make CMakeFiles/constructors.dir/constructors.cpp.o
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/constructors.cpp.o
+.PHONY : constructors.cpp.o
+
+constructors.i: constructors.cpp.i
+
+.PHONY : constructors.i
+
+# target to preprocess a source file
+constructors.cpp.i:
+	$(MAKE) -f CMakeFiles/constructors.dir/build.make CMakeFiles/constructors.dir/constructors.cpp.i
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/constructors.cpp.i
+.PHONY : constructors.cpp.i
+
+constructors.s: constructors.cpp.s
+
+.PHONY : constructors.s
+
+# target to generate assembly for a file
+constructors.cpp.s:
+	$(MAKE) -f CMakeFiles/constructors.dir/build.make CMakeFiles/constructors.dir/constructors.cpp.s
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/constructors.cpp.s
+.PHONY : constructors.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -200,12 +243,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... constructors"
 	@echo "... rebuild_cache"
 	@echo "... classes"
 	@echo "... poo_c__"
 	@echo "... classes.o"
 	@echo "... classes.i"
 	@echo "... classes.s"
+	@echo "... constructors.o"
+	@echo "... constructors.i"
+	@echo "... constructors.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

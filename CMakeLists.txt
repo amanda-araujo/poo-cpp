@@ -5,5 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(poo_c__ main.cpp
         classes.cpp
-        classes.h)
+        classes.h
+        constructors.cpp)
 add_executable(classes classes.cpp)
+add_executable(constructors constructors.cpp)
