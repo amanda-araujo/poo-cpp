@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/mnt/c/Users/Amanda/CLionProjects/poo-c++/animal-class.cpp" "/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/poo_c__.dir/animal-class.cpp.o"
   "/mnt/c/Users/Amanda/CLionProjects/poo-c++/classes.cpp" "/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/poo_c__.dir/classes.cpp.o"
   "/mnt/c/Users/Amanda/CLionProjects/poo-c++/constructors.cpp" "/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/poo_c__.dir/constructors.cpp.o"
   "/mnt/c/Users/Amanda/CLionProjects/poo-c++/main.cpp" "/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/poo_c__.dir/main.cpp.o"

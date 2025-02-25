@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/animal-class.dir/all
 all: CMakeFiles/constructors.dir/all
 all: CMakeFiles/classes.dir/all
 all: CMakeFiles/poo_c__.dir/all
@@ -65,11 +66,39 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/animal-class.dir/clean
 clean: CMakeFiles/constructors.dir/clean
 clean: CMakeFiles/classes.dir/clean
 clean: CMakeFiles/poo_c__.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/animal-class.dir
+
+# All Build rule for target.
+CMakeFiles/animal-class.dir/all:
+	$(MAKE) -f CMakeFiles/animal-class.dir/build.make CMakeFiles/animal-class.dir/depend
+	$(MAKE) -f CMakeFiles/animal-class.dir/build.make CMakeFiles/animal-class.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target animal-class"
+.PHONY : CMakeFiles/animal-class.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/animal-class.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/animal-class.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/animal-class.dir/rule
+
+# Convenience name for target.
+animal-class: CMakeFiles/animal-class.dir/rule
+
+.PHONY : animal-class
+
+# clean rule for target.
+CMakeFiles/animal-class.dir/clean:
+	$(MAKE) -f CMakeFiles/animal-class.dir/build.make CMakeFiles/animal-class.dir/clean
+.PHONY : CMakeFiles/animal-class.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/constructors.dir
@@ -78,7 +107,7 @@ clean: CMakeFiles/poo_c__.dir/clean
 CMakeFiles/constructors.dir/all:
 	$(MAKE) -f CMakeFiles/constructors.dir/build.make CMakeFiles/constructors.dir/depend
 	$(MAKE) -f CMakeFiles/constructors.dir/build.make CMakeFiles/constructors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target constructors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target constructors"
 .PHONY : CMakeFiles/constructors.dir/all
 
 # Build rule for subdir invocation for target.
@@ -105,7 +134,7 @@ CMakeFiles/constructors.dir/clean:
 CMakeFiles/classes.dir/all:
 	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/depend
 	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target classes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target classes"
 .PHONY : CMakeFiles/classes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -132,12 +161,12 @@ CMakeFiles/classes.dir/clean:
 CMakeFiles/poo_c__.dir/all:
 	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/depend
 	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=5,6,7,8 "Built target poo_c__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11 "Built target poo_c__"
 .PHONY : CMakeFiles/poo_c__.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/poo_c__.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/poo_c__.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/poo_c__.dir/rule

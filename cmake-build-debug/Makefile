@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named animal-class
+
+# Build rule for target.
+animal-class: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 animal-class
+.PHONY : animal-class
+
+# fast build rule for target.
+animal-class/fast:
+	$(MAKE) -f CMakeFiles/animal-class.dir/build.make CMakeFiles/animal-class.dir/build
+.PHONY : animal-class/fast
+
+#=============================================================================
 # Target rules for targets named constructors
 
 # Build rule for target.
@@ -148,6 +161,36 @@ poo_c__: cmake_check_build_system
 poo_c__/fast:
 	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/build
 .PHONY : poo_c__/fast
+
+animal-class.o: animal-class.cpp.o
+
+.PHONY : animal-class.o
+
+# target to build an object file
+animal-class.cpp.o:
+	$(MAKE) -f CMakeFiles/animal-class.dir/build.make CMakeFiles/animal-class.dir/animal-class.cpp.o
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/animal-class.cpp.o
+.PHONY : animal-class.cpp.o
+
+animal-class.i: animal-class.cpp.i
+
+.PHONY : animal-class.i
+
+# target to preprocess a source file
+animal-class.cpp.i:
+	$(MAKE) -f CMakeFiles/animal-class.dir/build.make CMakeFiles/animal-class.dir/animal-class.cpp.i
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/animal-class.cpp.i
+.PHONY : animal-class.cpp.i
+
+animal-class.s: animal-class.cpp.s
+
+.PHONY : animal-class.s
+
+# target to generate assembly for a file
+animal-class.cpp.s:
+	$(MAKE) -f CMakeFiles/animal-class.dir/build.make CMakeFiles/animal-class.dir/animal-class.cpp.s
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/animal-class.cpp.s
+.PHONY : animal-class.cpp.s
 
 classes.o: classes.cpp.o
 
@@ -243,10 +286,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... animal-class"
 	@echo "... constructors"
 	@echo "... rebuild_cache"
 	@echo "... classes"
 	@echo "... poo_c__"
+	@echo "... animal-class.o"
+	@echo "... animal-class.i"
+	@echo "... animal-class.s"
 	@echo "... classes.o"
 	@echo "... classes.i"
 	@echo "... classes.s"

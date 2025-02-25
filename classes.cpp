@@ -9,7 +9,8 @@
 using namespace std;
 
 // Create classes
-class Treco { // Class
+class Treco {
+    // Class
     public:   // Access specifier
         int tam;  // Attributes
         string name;
@@ -48,11 +49,11 @@ class Animal {
             int n;
             cout << "hunting in action, how many prays there are in sight?" << "\n";
             cin >> n;
-            pray += n;
+            prey += n;
         }
 
         // Extras
-        int pray = 0;
+        int prey = 0;
 };
 
 class Car {
@@ -117,9 +118,9 @@ int main() {
     tiger.move();
     tiger.sleep();
     tiger.hunting();
-    cout << "Result of the hunting: " << tiger.pray << "\n";
+    cout << "Result of the hunting: " << tiger.prey << "\n";
     tiger.hunting();
-    cout << "Result of the new hunting: " << tiger.pray << "\n";
+    cout << "Result of the new hunting: " << tiger.prey << "\n";
 
     // Fourth class
     Car ferrari; // Instantiation: creation of an object of class Car
