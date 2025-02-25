@@ -37,7 +37,6 @@ class Animal {
         int size;
 
         // Methods
-    public:
         void move() {
             cout << "moving to atack " << "\n";
         }
