@@ -27,7 +27,6 @@ int main() {
     Housing house;
     house.setAddress("R. Gonçalo Cristóvão");
     cout << house.getAddress() << endl;
-    Housing apt();
     return 0;
 }
 
