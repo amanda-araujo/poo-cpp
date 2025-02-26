@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/poo_c__.dir/animal-class.cpp.o"
   "CMakeFiles/poo_c__.dir/classes.cpp.o"
   "CMakeFiles/poo_c__.dir/constructors.cpp.o"
+  "CMakeFiles/poo_c__.dir/encapsulation.cpp.o"
   "CMakeFiles/poo_c__.dir/main.cpp.o"
   "poo_c__"
   "poo_c__.pdb"

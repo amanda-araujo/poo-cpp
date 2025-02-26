@@ -2,5 +2,6 @@
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/animal-class.dir
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/constructors.dir
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/encapsulation.dir
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/classes.dir
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/poo_c__.dir

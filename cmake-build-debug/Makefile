@@ -137,6 +137,19 @@ constructors/fast:
 .PHONY : constructors/fast
 
 #=============================================================================
+# Target rules for targets named encapsulation
+
+# Build rule for target.
+encapsulation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 encapsulation
+.PHONY : encapsulation
+
+# fast build rule for target.
+encapsulation/fast:
+	$(MAKE) -f CMakeFiles/encapsulation.dir/build.make CMakeFiles/encapsulation.dir/build
+.PHONY : encapsulation/fast
+
+#=============================================================================
 # Target rules for targets named classes
 
 # Build rule for target.
@@ -252,6 +265,36 @@ constructors.cpp.s:
 	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/constructors.cpp.s
 .PHONY : constructors.cpp.s
 
+encapsulation.o: encapsulation.cpp.o
+
+.PHONY : encapsulation.o
+
+# target to build an object file
+encapsulation.cpp.o:
+	$(MAKE) -f CMakeFiles/encapsulation.dir/build.make CMakeFiles/encapsulation.dir/encapsulation.cpp.o
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/encapsulation.cpp.o
+.PHONY : encapsulation.cpp.o
+
+encapsulation.i: encapsulation.cpp.i
+
+.PHONY : encapsulation.i
+
+# target to preprocess a source file
+encapsulation.cpp.i:
+	$(MAKE) -f CMakeFiles/encapsulation.dir/build.make CMakeFiles/encapsulation.dir/encapsulation.cpp.i
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/encapsulation.cpp.i
+.PHONY : encapsulation.cpp.i
+
+encapsulation.s: encapsulation.cpp.s
+
+.PHONY : encapsulation.s
+
+# target to generate assembly for a file
+encapsulation.cpp.s:
+	$(MAKE) -f CMakeFiles/encapsulation.dir/build.make CMakeFiles/encapsulation.dir/encapsulation.cpp.s
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/encapsulation.cpp.s
+.PHONY : encapsulation.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -289,6 +332,7 @@ help:
 	@echo "... animal-class"
 	@echo "... constructors"
 	@echo "... rebuild_cache"
+	@echo "... encapsulation"
 	@echo "... classes"
 	@echo "... poo_c__"
 	@echo "... animal-class.o"
@@ -300,6 +344,9 @@ help:
 	@echo "... constructors.o"
 	@echo "... constructors.i"
 	@echo "... constructors.s"
+	@echo "... encapsulation.o"
+	@echo "... encapsulation.i"
+	@echo "... encapsulation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

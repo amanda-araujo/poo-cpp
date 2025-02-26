@@ -50,6 +50,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/animal-class.dir/DependInfo.cmake"
   "CMakeFiles/constructors.dir/DependInfo.cmake"
+  "CMakeFiles/encapsulation.dir/DependInfo.cmake"
   "CMakeFiles/classes.dir/DependInfo.cmake"
   "CMakeFiles/poo_c__.dir/DependInfo.cmake"
   )
