@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named inheritance_diamond
+
+# Build rule for target.
+inheritance_diamond: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 inheritance_diamond
+.PHONY : inheritance_diamond
+
+# fast build rule for target.
+inheritance_diamond/fast:
+	$(MAKE) -f CMakeFiles/inheritance_diamond.dir/build.make CMakeFiles/inheritance_diamond.dir/build
+.PHONY : inheritance_diamond/fast
+
+#=============================================================================
+# Target rules for targets named inheritance
+
+# Build rule for target.
+inheritance: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 inheritance
+.PHONY : inheritance
+
+# fast build rule for target.
+inheritance/fast:
+	$(MAKE) -f CMakeFiles/inheritance.dir/build.make CMakeFiles/inheritance.dir/build
+.PHONY : inheritance/fast
+
+#=============================================================================
+# Target rules for targets named polymorphism
+
+# Build rule for target.
+polymorphism: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 polymorphism
+.PHONY : polymorphism
+
+# fast build rule for target.
+polymorphism/fast:
+	$(MAKE) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/build
+.PHONY : polymorphism/fast
+
+#=============================================================================
 # Target rules for targets named animal-class
 
 # Build rule for target.
@@ -122,6 +161,19 @@ animal-class: cmake_check_build_system
 animal-class/fast:
 	$(MAKE) -f CMakeFiles/animal-class.dir/build.make CMakeFiles/animal-class.dir/build
 .PHONY : animal-class/fast
+
+#=============================================================================
+# Target rules for targets named protected_specifier
+
+# Build rule for target.
+protected_specifier: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 protected_specifier
+.PHONY : protected_specifier
+
+# fast build rule for target.
+protected_specifier/fast:
+	$(MAKE) -f CMakeFiles/protected_specifier.dir/build.make CMakeFiles/protected_specifier.dir/build
+.PHONY : protected_specifier/fast
 
 #=============================================================================
 # Target rules for targets named constructors
@@ -161,6 +213,19 @@ classes: cmake_check_build_system
 classes/fast:
 	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
 .PHONY : classes/fast
+
+#=============================================================================
+# Target rules for targets named inheritance_multiple
+
+# Build rule for target.
+inheritance_multiple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 inheritance_multiple
+.PHONY : inheritance_multiple
+
+# fast build rule for target.
+inheritance_multiple/fast:
+	$(MAKE) -f CMakeFiles/inheritance_multiple.dir/build.make CMakeFiles/inheritance_multiple.dir/build
+.PHONY : inheritance_multiple/fast
 
 #=============================================================================
 # Target rules for targets named poo_c__
@@ -295,6 +360,96 @@ encapsulation.cpp.s:
 	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/encapsulation.cpp.s
 .PHONY : encapsulation.cpp.s
 
+inheritance.o: inheritance.cpp.o
+
+.PHONY : inheritance.o
+
+# target to build an object file
+inheritance.cpp.o:
+	$(MAKE) -f CMakeFiles/inheritance.dir/build.make CMakeFiles/inheritance.dir/inheritance.cpp.o
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/inheritance.cpp.o
+.PHONY : inheritance.cpp.o
+
+inheritance.i: inheritance.cpp.i
+
+.PHONY : inheritance.i
+
+# target to preprocess a source file
+inheritance.cpp.i:
+	$(MAKE) -f CMakeFiles/inheritance.dir/build.make CMakeFiles/inheritance.dir/inheritance.cpp.i
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/inheritance.cpp.i
+.PHONY : inheritance.cpp.i
+
+inheritance.s: inheritance.cpp.s
+
+.PHONY : inheritance.s
+
+# target to generate assembly for a file
+inheritance.cpp.s:
+	$(MAKE) -f CMakeFiles/inheritance.dir/build.make CMakeFiles/inheritance.dir/inheritance.cpp.s
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/inheritance.cpp.s
+.PHONY : inheritance.cpp.s
+
+inheritance_diamond.o: inheritance_diamond.cpp.o
+
+.PHONY : inheritance_diamond.o
+
+# target to build an object file
+inheritance_diamond.cpp.o:
+	$(MAKE) -f CMakeFiles/inheritance_diamond.dir/build.make CMakeFiles/inheritance_diamond.dir/inheritance_diamond.cpp.o
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.o
+.PHONY : inheritance_diamond.cpp.o
+
+inheritance_diamond.i: inheritance_diamond.cpp.i
+
+.PHONY : inheritance_diamond.i
+
+# target to preprocess a source file
+inheritance_diamond.cpp.i:
+	$(MAKE) -f CMakeFiles/inheritance_diamond.dir/build.make CMakeFiles/inheritance_diamond.dir/inheritance_diamond.cpp.i
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.i
+.PHONY : inheritance_diamond.cpp.i
+
+inheritance_diamond.s: inheritance_diamond.cpp.s
+
+.PHONY : inheritance_diamond.s
+
+# target to generate assembly for a file
+inheritance_diamond.cpp.s:
+	$(MAKE) -f CMakeFiles/inheritance_diamond.dir/build.make CMakeFiles/inheritance_diamond.dir/inheritance_diamond.cpp.s
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.s
+.PHONY : inheritance_diamond.cpp.s
+
+inheritance_multiple.o: inheritance_multiple.cpp.o
+
+.PHONY : inheritance_multiple.o
+
+# target to build an object file
+inheritance_multiple.cpp.o:
+	$(MAKE) -f CMakeFiles/inheritance_multiple.dir/build.make CMakeFiles/inheritance_multiple.dir/inheritance_multiple.cpp.o
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.o
+.PHONY : inheritance_multiple.cpp.o
+
+inheritance_multiple.i: inheritance_multiple.cpp.i
+
+.PHONY : inheritance_multiple.i
+
+# target to preprocess a source file
+inheritance_multiple.cpp.i:
+	$(MAKE) -f CMakeFiles/inheritance_multiple.dir/build.make CMakeFiles/inheritance_multiple.dir/inheritance_multiple.cpp.i
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.i
+.PHONY : inheritance_multiple.cpp.i
+
+inheritance_multiple.s: inheritance_multiple.cpp.s
+
+.PHONY : inheritance_multiple.s
+
+# target to generate assembly for a file
+inheritance_multiple.cpp.s:
+	$(MAKE) -f CMakeFiles/inheritance_multiple.dir/build.make CMakeFiles/inheritance_multiple.dir/inheritance_multiple.cpp.s
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.s
+.PHONY : inheritance_multiple.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -322,6 +477,66 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+polymorphism.o: polymorphism.cpp.o
+
+.PHONY : polymorphism.o
+
+# target to build an object file
+polymorphism.cpp.o:
+	$(MAKE) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/polymorphism.cpp.o
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/polymorphism.cpp.o
+.PHONY : polymorphism.cpp.o
+
+polymorphism.i: polymorphism.cpp.i
+
+.PHONY : polymorphism.i
+
+# target to preprocess a source file
+polymorphism.cpp.i:
+	$(MAKE) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/polymorphism.cpp.i
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/polymorphism.cpp.i
+.PHONY : polymorphism.cpp.i
+
+polymorphism.s: polymorphism.cpp.s
+
+.PHONY : polymorphism.s
+
+# target to generate assembly for a file
+polymorphism.cpp.s:
+	$(MAKE) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/polymorphism.cpp.s
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/polymorphism.cpp.s
+.PHONY : polymorphism.cpp.s
+
+protected_specifier.o: protected_specifier.cpp.o
+
+.PHONY : protected_specifier.o
+
+# target to build an object file
+protected_specifier.cpp.o:
+	$(MAKE) -f CMakeFiles/protected_specifier.dir/build.make CMakeFiles/protected_specifier.dir/protected_specifier.cpp.o
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/protected_specifier.cpp.o
+.PHONY : protected_specifier.cpp.o
+
+protected_specifier.i: protected_specifier.cpp.i
+
+.PHONY : protected_specifier.i
+
+# target to preprocess a source file
+protected_specifier.cpp.i:
+	$(MAKE) -f CMakeFiles/protected_specifier.dir/build.make CMakeFiles/protected_specifier.dir/protected_specifier.cpp.i
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/protected_specifier.cpp.i
+.PHONY : protected_specifier.cpp.i
+
+protected_specifier.s: protected_specifier.cpp.s
+
+.PHONY : protected_specifier.s
+
+# target to generate assembly for a file
+protected_specifier.cpp.s:
+	$(MAKE) -f CMakeFiles/protected_specifier.dir/build.make CMakeFiles/protected_specifier.dir/protected_specifier.cpp.s
+	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/protected_specifier.cpp.s
+.PHONY : protected_specifier.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -329,11 +544,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... inheritance_diamond"
+	@echo "... inheritance"
+	@echo "... polymorphism"
 	@echo "... animal-class"
+	@echo "... protected_specifier"
 	@echo "... constructors"
 	@echo "... rebuild_cache"
 	@echo "... encapsulation"
 	@echo "... classes"
+	@echo "... inheritance_multiple"
 	@echo "... poo_c__"
 	@echo "... animal-class.o"
 	@echo "... animal-class.i"
@@ -347,9 +567,24 @@ help:
 	@echo "... encapsulation.o"
 	@echo "... encapsulation.i"
 	@echo "... encapsulation.s"
+	@echo "... inheritance.o"
+	@echo "... inheritance.i"
+	@echo "... inheritance.s"
+	@echo "... inheritance_diamond.o"
+	@echo "... inheritance_diamond.i"
+	@echo "... inheritance_diamond.s"
+	@echo "... inheritance_multiple.o"
+	@echo "... inheritance_multiple.i"
+	@echo "... inheritance_multiple.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... polymorphism.o"
+	@echo "... polymorphism.i"
+	@echo "... polymorphism.s"
+	@echo "... protected_specifier.o"
+	@echo "... protected_specifier.i"
+	@echo "... protected_specifier.s"
 .PHONY : help
 
 

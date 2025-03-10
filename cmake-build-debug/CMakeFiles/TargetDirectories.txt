@@ -1,7 +1,12 @@
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/inheritance_diamond.dir
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/inheritance.dir
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/polymorphism.dir
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/animal-class.dir
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/protected_specifier.dir
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/constructors.dir
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/encapsulation.dir
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/classes.dir
+/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/inheritance_multiple.dir
 /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles/poo_c__.dir

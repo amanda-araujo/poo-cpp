@@ -53,10 +53,15 @@ CMAKE_BINARY_DIR = /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/inheritance_diamond.dir/all
+all: CMakeFiles/inheritance.dir/all
+all: CMakeFiles/polymorphism.dir/all
 all: CMakeFiles/animal-class.dir/all
+all: CMakeFiles/protected_specifier.dir/all
 all: CMakeFiles/constructors.dir/all
 all: CMakeFiles/encapsulation.dir/all
 all: CMakeFiles/classes.dir/all
+all: CMakeFiles/inheritance_multiple.dir/all
 all: CMakeFiles/poo_c__.dir/all
 
 .PHONY : all
@@ -67,13 +72,99 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/inheritance_diamond.dir/clean
+clean: CMakeFiles/inheritance.dir/clean
+clean: CMakeFiles/polymorphism.dir/clean
 clean: CMakeFiles/animal-class.dir/clean
+clean: CMakeFiles/protected_specifier.dir/clean
 clean: CMakeFiles/constructors.dir/clean
 clean: CMakeFiles/encapsulation.dir/clean
 clean: CMakeFiles/classes.dir/clean
+clean: CMakeFiles/inheritance_multiple.dir/clean
 clean: CMakeFiles/poo_c__.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/inheritance_diamond.dir
+
+# All Build rule for target.
+CMakeFiles/inheritance_diamond.dir/all:
+	$(MAKE) -f CMakeFiles/inheritance_diamond.dir/build.make CMakeFiles/inheritance_diamond.dir/depend
+	$(MAKE) -f CMakeFiles/inheritance_diamond.dir/build.make CMakeFiles/inheritance_diamond.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target inheritance_diamond"
+.PHONY : CMakeFiles/inheritance_diamond.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/inheritance_diamond.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/inheritance_diamond.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/inheritance_diamond.dir/rule
+
+# Convenience name for target.
+inheritance_diamond: CMakeFiles/inheritance_diamond.dir/rule
+
+.PHONY : inheritance_diamond
+
+# clean rule for target.
+CMakeFiles/inheritance_diamond.dir/clean:
+	$(MAKE) -f CMakeFiles/inheritance_diamond.dir/build.make CMakeFiles/inheritance_diamond.dir/clean
+.PHONY : CMakeFiles/inheritance_diamond.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/inheritance.dir
+
+# All Build rule for target.
+CMakeFiles/inheritance.dir/all:
+	$(MAKE) -f CMakeFiles/inheritance.dir/build.make CMakeFiles/inheritance.dir/depend
+	$(MAKE) -f CMakeFiles/inheritance.dir/build.make CMakeFiles/inheritance.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target inheritance"
+.PHONY : CMakeFiles/inheritance.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/inheritance.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/inheritance.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/inheritance.dir/rule
+
+# Convenience name for target.
+inheritance: CMakeFiles/inheritance.dir/rule
+
+.PHONY : inheritance
+
+# clean rule for target.
+CMakeFiles/inheritance.dir/clean:
+	$(MAKE) -f CMakeFiles/inheritance.dir/build.make CMakeFiles/inheritance.dir/clean
+.PHONY : CMakeFiles/inheritance.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/polymorphism.dir
+
+# All Build rule for target.
+CMakeFiles/polymorphism.dir/all:
+	$(MAKE) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/depend
+	$(MAKE) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target polymorphism"
+.PHONY : CMakeFiles/polymorphism.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/polymorphism.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/polymorphism.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/polymorphism.dir/rule
+
+# Convenience name for target.
+polymorphism: CMakeFiles/polymorphism.dir/rule
+
+.PHONY : polymorphism
+
+# clean rule for target.
+CMakeFiles/polymorphism.dir/clean:
+	$(MAKE) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/clean
+.PHONY : CMakeFiles/polymorphism.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/animal-class.dir
@@ -101,6 +192,33 @@ animal-class: CMakeFiles/animal-class.dir/rule
 CMakeFiles/animal-class.dir/clean:
 	$(MAKE) -f CMakeFiles/animal-class.dir/build.make CMakeFiles/animal-class.dir/clean
 .PHONY : CMakeFiles/animal-class.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/protected_specifier.dir
+
+# All Build rule for target.
+CMakeFiles/protected_specifier.dir/all:
+	$(MAKE) -f CMakeFiles/protected_specifier.dir/build.make CMakeFiles/protected_specifier.dir/depend
+	$(MAKE) -f CMakeFiles/protected_specifier.dir/build.make CMakeFiles/protected_specifier.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target protected_specifier"
+.PHONY : CMakeFiles/protected_specifier.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/protected_specifier.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/protected_specifier.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/protected_specifier.dir/rule
+
+# Convenience name for target.
+protected_specifier: CMakeFiles/protected_specifier.dir/rule
+
+.PHONY : protected_specifier
+
+# clean rule for target.
+CMakeFiles/protected_specifier.dir/clean:
+	$(MAKE) -f CMakeFiles/protected_specifier.dir/build.make CMakeFiles/protected_specifier.dir/clean
+.PHONY : CMakeFiles/protected_specifier.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/constructors.dir
@@ -184,18 +302,45 @@ CMakeFiles/classes.dir/clean:
 .PHONY : CMakeFiles/classes.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/inheritance_multiple.dir
+
+# All Build rule for target.
+CMakeFiles/inheritance_multiple.dir/all:
+	$(MAKE) -f CMakeFiles/inheritance_multiple.dir/build.make CMakeFiles/inheritance_multiple.dir/depend
+	$(MAKE) -f CMakeFiles/inheritance_multiple.dir/build.make CMakeFiles/inheritance_multiple.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target inheritance_multiple"
+.PHONY : CMakeFiles/inheritance_multiple.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/inheritance_multiple.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/inheritance_multiple.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/inheritance_multiple.dir/rule
+
+# Convenience name for target.
+inheritance_multiple: CMakeFiles/inheritance_multiple.dir/rule
+
+.PHONY : inheritance_multiple
+
+# clean rule for target.
+CMakeFiles/inheritance_multiple.dir/clean:
+	$(MAKE) -f CMakeFiles/inheritance_multiple.dir/build.make CMakeFiles/inheritance_multiple.dir/clean
+.PHONY : CMakeFiles/inheritance_multiple.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/poo_c__.dir
 
 # All Build rule for target.
 CMakeFiles/poo_c__.dir/all:
 	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/depend
 	$(MAKE) -f CMakeFiles/poo_c__.dir/build.make CMakeFiles/poo_c__.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12,13,14 "Built target poo_c__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=17,18,19,20,21,22,23,24,25,26,27 "Built target poo_c__"
 .PHONY : CMakeFiles/poo_c__.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/poo_c__.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/poo_c__.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/poo_c__.dir/rule

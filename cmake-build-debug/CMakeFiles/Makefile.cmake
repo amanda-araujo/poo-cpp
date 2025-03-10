@@ -48,9 +48,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/inheritance_diamond.dir/DependInfo.cmake"
+  "CMakeFiles/inheritance.dir/DependInfo.cmake"
+  "CMakeFiles/polymorphism.dir/DependInfo.cmake"
   "CMakeFiles/animal-class.dir/DependInfo.cmake"
+  "CMakeFiles/protected_specifier.dir/DependInfo.cmake"
   "CMakeFiles/constructors.dir/DependInfo.cmake"
   "CMakeFiles/encapsulation.dir/DependInfo.cmake"
   "CMakeFiles/classes.dir/DependInfo.cmake"
+  "CMakeFiles/inheritance_multiple.dir/DependInfo.cmake"
   "CMakeFiles/poo_c__.dir/DependInfo.cmake"
   )

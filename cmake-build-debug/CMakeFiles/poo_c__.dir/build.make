@@ -122,13 +122,83 @@ CMakeFiles/poo_c__.dir/encapsulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo_c__.dir/encapsulation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Amanda/CLionProjects/poo-c++/encapsulation.cpp -o CMakeFiles/poo_c__.dir/encapsulation.cpp.s
 
+CMakeFiles/poo_c__.dir/inheritance.cpp.o: CMakeFiles/poo_c__.dir/flags.make
+CMakeFiles/poo_c__.dir/inheritance.cpp.o: ../inheritance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/poo_c__.dir/inheritance.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/poo_c__.dir/inheritance.cpp.o -c /mnt/c/Users/Amanda/CLionProjects/poo-c++/inheritance.cpp
+
+CMakeFiles/poo_c__.dir/inheritance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo_c__.dir/inheritance.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Amanda/CLionProjects/poo-c++/inheritance.cpp > CMakeFiles/poo_c__.dir/inheritance.cpp.i
+
+CMakeFiles/poo_c__.dir/inheritance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo_c__.dir/inheritance.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Amanda/CLionProjects/poo-c++/inheritance.cpp -o CMakeFiles/poo_c__.dir/inheritance.cpp.s
+
+CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.o: CMakeFiles/poo_c__.dir/flags.make
+CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.o: ../inheritance_multiple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.o -c /mnt/c/Users/Amanda/CLionProjects/poo-c++/inheritance_multiple.cpp
+
+CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Amanda/CLionProjects/poo-c++/inheritance_multiple.cpp > CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.i
+
+CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Amanda/CLionProjects/poo-c++/inheritance_multiple.cpp -o CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.s
+
+CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.o: CMakeFiles/poo_c__.dir/flags.make
+CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.o: ../inheritance_diamond.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.o -c /mnt/c/Users/Amanda/CLionProjects/poo-c++/inheritance_diamond.cpp
+
+CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Amanda/CLionProjects/poo-c++/inheritance_diamond.cpp > CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.i
+
+CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Amanda/CLionProjects/poo-c++/inheritance_diamond.cpp -o CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.s
+
+CMakeFiles/poo_c__.dir/protected_specifier.cpp.o: CMakeFiles/poo_c__.dir/flags.make
+CMakeFiles/poo_c__.dir/protected_specifier.cpp.o: ../protected_specifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/poo_c__.dir/protected_specifier.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/poo_c__.dir/protected_specifier.cpp.o -c /mnt/c/Users/Amanda/CLionProjects/poo-c++/protected_specifier.cpp
+
+CMakeFiles/poo_c__.dir/protected_specifier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo_c__.dir/protected_specifier.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Amanda/CLionProjects/poo-c++/protected_specifier.cpp > CMakeFiles/poo_c__.dir/protected_specifier.cpp.i
+
+CMakeFiles/poo_c__.dir/protected_specifier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo_c__.dir/protected_specifier.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Amanda/CLionProjects/poo-c++/protected_specifier.cpp -o CMakeFiles/poo_c__.dir/protected_specifier.cpp.s
+
+CMakeFiles/poo_c__.dir/polymorphism.cpp.o: CMakeFiles/poo_c__.dir/flags.make
+CMakeFiles/poo_c__.dir/polymorphism.cpp.o: ../polymorphism.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/poo_c__.dir/polymorphism.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/poo_c__.dir/polymorphism.cpp.o -c /mnt/c/Users/Amanda/CLionProjects/poo-c++/polymorphism.cpp
+
+CMakeFiles/poo_c__.dir/polymorphism.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo_c__.dir/polymorphism.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Amanda/CLionProjects/poo-c++/polymorphism.cpp > CMakeFiles/poo_c__.dir/polymorphism.cpp.i
+
+CMakeFiles/poo_c__.dir/polymorphism.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo_c__.dir/polymorphism.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Amanda/CLionProjects/poo-c++/polymorphism.cpp -o CMakeFiles/poo_c__.dir/polymorphism.cpp.s
+
 # Object files for target poo_c__
 poo_c___OBJECTS = \
 "CMakeFiles/poo_c__.dir/main.cpp.o" \
 "CMakeFiles/poo_c__.dir/classes.cpp.o" \
 "CMakeFiles/poo_c__.dir/constructors.cpp.o" \
 "CMakeFiles/poo_c__.dir/animal-class.cpp.o" \
-"CMakeFiles/poo_c__.dir/encapsulation.cpp.o"
+"CMakeFiles/poo_c__.dir/encapsulation.cpp.o" \
+"CMakeFiles/poo_c__.dir/inheritance.cpp.o" \
+"CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.o" \
+"CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.o" \
+"CMakeFiles/poo_c__.dir/protected_specifier.cpp.o" \
+"CMakeFiles/poo_c__.dir/polymorphism.cpp.o"
 
 # External object files for target poo_c__
 poo_c___EXTERNAL_OBJECTS =
@@ -138,9 +208,14 @@ poo_c__: CMakeFiles/poo_c__.dir/classes.cpp.o
 poo_c__: CMakeFiles/poo_c__.dir/constructors.cpp.o
 poo_c__: CMakeFiles/poo_c__.dir/animal-class.cpp.o
 poo_c__: CMakeFiles/poo_c__.dir/encapsulation.cpp.o
+poo_c__: CMakeFiles/poo_c__.dir/inheritance.cpp.o
+poo_c__: CMakeFiles/poo_c__.dir/inheritance_multiple.cpp.o
+poo_c__: CMakeFiles/poo_c__.dir/inheritance_diamond.cpp.o
+poo_c__: CMakeFiles/poo_c__.dir/protected_specifier.cpp.o
+poo_c__: CMakeFiles/poo_c__.dir/polymorphism.cpp.o
 poo_c__: CMakeFiles/poo_c__.dir/build.make
 poo_c__: CMakeFiles/poo_c__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable poo_c__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Amanda/CLionProjects/poo-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable poo_c__"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/poo_c__.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
