@@ -1,1 +1,13 @@
-add read me heeeeeey
+# Object-Orientated Programming 
+Content: Code developed while learning concepts of OOP and its implementation in C++. On the PDF file "Object-Oriented Programming" there is a compilation of basic concepts and a resume of what has been done.
+
+Topics covered studying Object-Oriented Programming with C++:
+- Objects
+- Classes and Objects
+  - Attributes
+  - Methods
+  - Constructor
+  - Specifier
+- Encapsulation
+- Inheritance
+- Polymorphism
